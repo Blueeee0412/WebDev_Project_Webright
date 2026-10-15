@@ -7,7 +7,7 @@ h1 {
    font-style: italic;
    font-weight: lighter;
    color: brown;
-   background-color:rgb(241, 225, 225);
+   background-color:rgb(224, 206, 206);
    border-style:solid;
    width:12rem;
    padding: 2.5rem;
@@ -19,18 +19,33 @@ h1 {
 h2 {
     font-size: 7ch;
     color: brown;
-    background-color: rgb(220, 201, 201);
+    background-color: rgb(227, 205, 205);
     border-style:solid;
 }
 
 p {
     color: brown;
     font-family:sans-serif;
-    background-color: rgb(228, 203, 203);
+    background-color: rgb(234, 217, 217);
     padding: 10%;
+    border-style: solid;
     
 }
  
+.aboutfirstcar {
+    width: 20rem;
+}
+
+.carimage {
+   
+     color: brown;
+   background-color: rgb(235, 219, 219);
+   border-style: solid;
+   padding: 1rem;
+   width: 20rem;
+   height: 20rem;
+}
+
 a { 
     font-family:monospace;
     font-style: italic;
@@ -45,5 +60,5 @@ a {
 footer {
     text-align: right;
     font-size: small;
-    background-color: aliceblue;
+    background-color: rgb(235, 224, 220);
 }
