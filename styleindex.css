@@ -1,0 +1,68 @@
+
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2019/09/18/07/09/meadow-4485609_1280.jpg);
+    background-repeat:repeat-y;
+    background-repeat: repeat-x;
+}
+
+h1 {
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-style: italic;
+   font-weight: lighter;
+   color: brown;
+   background-color:rgb(236, 224, 224);
+   border-style:solid;
+   width:12rem;
+   padding: 2.5rem;
+}
+
+
+.subtitle1{
+    color:rgb(170, 45, 45);
+   font-family: monospace;
+   font-size: xx-large;
+   text-align: justify;
+    width: 14rem;
+}
+
+.firstcar {
+    
+    color: brown;
+   background-color: rgb(233, 222, 222);
+   border-style: solid;
+   padding: 1rem;
+   width: 20rem;
+   height: 20rem;
+   
+}
+ 
+.firstcartxt {
+    color: brown;
+   background-color: rgb(236, 227, 227);
+   border-style: solid;
+   padding: 1rem;
+   width: 20rem;
+   height: 2rem;
+  
+}
+
+
+a {
+    font-family:monospace;
+    font-weight:bolder;
+    color:rgb(180, 53, 53);
+    background-color: rgb(238, 234, 234);
+    border-style: solid;
+    border-radius: 20%;
+    padding:1.5%;
+}
+
+
+footer {
+    text-align: right;
+    font-size: small;
+    background-color: aliceblue;
+}
+ 
+  
