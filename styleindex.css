@@ -6,17 +6,42 @@ body{
     background-repeat: repeat-x;
 }
 
-h1 {
+
+
+.Header {
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    font-style: italic;
    font-weight: lighter;
    color: brown;
    background-color:rgb(236, 224, 224);
    border-style:solid;
-   width:12rem;
-   padding: 2.5rem;
-   height: 1.5rem; 
-   margin-top: .5rem;
+   width: 12rem;
+   padding: 2rem;
+   height: 1rem; 
+   margin-top: rem;
+  
+}
+
+.Nav {
+    font-family:monospace;
+    font-weight:bolder;
+    color:rgb(180, 53, 53);
+    background-color: rgb(238, 234, 234);
+    border-style: solid;
+    padding:1.5%;
+}
+
+.OpenNav{
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
+    font-family:monospace;
+    font-weight:bolder;
+    color:rgb(180, 53, 53);
+    background-color: rgb(238, 234, 234);
+    padding:1%;
 }
 
 
@@ -28,38 +53,54 @@ h1 {
     width: 14rem;
 }
 
-.firstcar {
-    
+h2{
+    color: brown;
+   background-color: rgb(233, 222, 222);
+   border-style: solid;
+   padding: 1rem;
+   width: 10rem;
+   height: 2rem;
+}
+
+
+
+.FirstCar {
+
+    display: flex;
+   flex-wrap: nowrap;
+    width: 100%;
+    margin: auto;
+
+}
+   
+.car{    
     color: brown;
    background-color: rgb(233, 222, 222);
    border-style: solid;
    padding: 1rem;
    width: 20rem;
    height: 20rem;
-  
-    display:inline-block
-   
-}
- 
-.firstcartxt {
-    color: brown;
-   background-color: rgb(236, 227, 227);
-   border-style: solid;
-   padding: 1rem;
-   width: 20rem;
-   height: 2rem;
-   position: absolute; top: 300px;
-    float: left;
 }
 
-a {
-    font-family:monospace;
-    font-weight:bolder;
-    color:rgb(180, 53, 53);
-    background-color: rgb(238, 234, 234);
+ 
+.cartext {
+    width: 10rem;
+    height: 5rem;
+    border-color: aliceblue;
     border-style: solid;
-    border-radius: 20%;
-    padding:1.5%;
+    color: transparent;
+    background-color: #f7e5e5;
+    background-position: left;
+     background-size: 100% 100%;
+    background-image: linear-gradient(#d44141, #df8b25);
+    display: inline;
+    background-repeat: no-repeat;
+    transition: all 3s ease-in-out;
+}    
+
+.cartext:hover {
+  color: #370000;
+  background-size: 0% 100%;
 }
 
 
@@ -68,5 +109,5 @@ footer {
     font-size: small;
     background-color: aliceblue;
 }
- 
+
   
