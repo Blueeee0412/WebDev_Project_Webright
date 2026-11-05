@@ -38,12 +38,12 @@ h2 {
 
 .carimage {
    
-     color: brown;
-   background-color: rgb(235, 219, 219);
-   border-style: solid;
-   padding: 1rem;
-   width: 20rem;
-   height: 20rem;
+    color: brown;
+    background-color: rgb(235, 219, 219);
+    border-style: solid;
+    padding: 1rem;
+    width: 20rem;
+    height: 20rem;
 }
 
 a {
