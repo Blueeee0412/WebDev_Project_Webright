@@ -39,7 +39,7 @@ body{
 
 a {
   cursor: pointer;
-  font-family:monospace;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight:bolder;
   color:rgb(180, 53, 53);
   background-color: rgb(238, 234, 234);
@@ -49,9 +49,10 @@ a {
 
 .subtitle1{
   color:rgb(170, 45, 45);
-  font-family: monospace;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:monospace;
   font-size: xx-large;
-  text-align: justify;
+  text-align: left;
   width: 14rem;
 }
 
