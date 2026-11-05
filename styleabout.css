@@ -15,22 +15,22 @@ h1 {
    margin-top: 2rem;
 }
 
+.Nav {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    color:rgb(180, 53, 53);
+    background-color: rgb(238, 234, 234);
+    border-style: solid;
+    padding:1.5%;
+}
 
 h2 {
     font-size: 7ch;
     color: brown;
-    background-color: rgb(227, 205, 205);
+    background-color: rgb(241, 227, 227);
     border-style:solid;
 }
 
-p {
-    color: brown;
-    font-family:sans-serif;
-    background-color: rgb(234, 217, 217);
-    padding: 10%;
-    border-style: solid;
-    
-}
  
 .aboutfirstcar {
     width: 20rem;
@@ -46,15 +46,20 @@ p {
    height: 20rem;
 }
 
-a { 
+a {
+    cursor: pointer;
     font-family:monospace;
-    font-style: italic;
-    font-weight: lighter;
-    color:rgb(184, 51, 51);
-    background-color: rgb(237, 221, 221);
+    font-weight:bolder;
+    color:rgb(180, 53, 53);
+    background-color: rgb(238, 234, 234);
+    padding:1%;
+}
+
+
+p{
+    color: brown;
     border-style: solid;
-    border-radius: 20%;
-    padding:1.5%;
+    background-color: rgb(255, 240, 240);
 }
 
 footer {
