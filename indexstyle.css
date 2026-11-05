@@ -21,9 +21,7 @@ h2{
 
 }
 
-p{
-   text-align: center;
-}
+
  
 a {
     font-family:monospace;
@@ -34,6 +32,10 @@ a {
     border-style: solid;
     border-radius: 20%;
     padding:1.5%;
+}
+
+.firstcartext {
+    
 }
 
 footer {

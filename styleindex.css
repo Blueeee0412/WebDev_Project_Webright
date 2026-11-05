@@ -36,6 +36,8 @@ h1 {
    padding: 1rem;
    width: 20rem;
    height: 20rem;
+  
+    display:inline-block
    
 }
  
@@ -46,9 +48,9 @@ h1 {
    padding: 1rem;
    width: 20rem;
    height: 2rem;
-  
+   position: absolute; top: 300px;
+    float: left;
 }
-
 
 a {
     font-family:monospace;
