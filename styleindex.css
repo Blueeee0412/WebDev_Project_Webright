@@ -1,13 +1,13 @@
 
-
+/*Background*/
 body{
-  background-image: url(https://cdn.pixabay.com/photo/2019/09/18/07/09/meadow-4485609_1280.jpg);
+  background-image: url();
   background-repeat:repeat-y;
   background-repeat: repeat-x;
 }
 
 
-
+/*Title*/
 .Header {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style:italic;
@@ -24,6 +24,7 @@ body{
   
 }
 
+/*Navagation Bar*/
 .Nav {
   font-family:Arial, Helvetica, sans-serif;
   font-weight:bolder;
@@ -46,7 +47,7 @@ a {
   padding:1%;
 }
 
-
+/*MainBox*/
 .subtitle1{
   color:rgb(170, 45, 45);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -58,42 +59,34 @@ a {
 
 h2{
   color: brown;
-  background-color: rgb(233, 222, 222);
+  background-color:rgb(255, 240, 240);
   border-style: solid;
   padding: 1rem;
-  width: 10rem;
+  width: 1rem;
   height: 2rem;
-}
 
-
-
-.FirstCar {
-
+.Box_1 {
+  background-color: #5B91A3;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
   display: flex;
-  flex-wrap: nowrap;
-  width: 100%;
-  margin: auto;
-
-}
-   
-.car{    
-  color: brown;
-  background-color: rgb(233, 222, 222);
-  border-style: solid;
-  padding: 1rem;
-  width: 20rem;
-  height: 20rem;
+  gap: 50px;
 }
 
- 
-.cartext {
-  color:#750909;
-  width: 10rem;
-  height: 5rem;
-  border-color: rgb(161, 8, 41);
-  border-style: solid;
-  background-color: rgb(238, 234, 219);
-}    
+.Textbox1{
+    background-color: #CFEAE0;
+    border: 2px solid #131B2B;
+    border-radius: 5%;
+    width: 600px;
+    height: 250px;
+    font-size: 94%;
+}
+
+
+
+
+}
 
 
 footer {
