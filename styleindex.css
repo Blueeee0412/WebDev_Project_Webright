@@ -2,12 +2,29 @@ body{
   background-color: #7a3a47;
 }
 
-header{
+/*---Title---*/
+.Title {
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size:300%;
+  display:flexbox;
+  font-size: 3rem;
+  font-weight: bolder;
+  font-weight: bold;
+  color: #3498db;
+  animation: textAnimation 3s ease infinite ;
 }
 
-/*Navigation Bar*/
+@keyframes textAnimation {
+  0%, 100% {
+    color: #fff7ef;
+    transform: scale(1);
+  }
+  50% {
+    color: #e68953b4;
+    transform: scale(1.05);
+  }
+}
+
+/*---Navigation Bar---*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -26,7 +43,7 @@ ul {
 a{
     padding-left: 2rem;
     padding-right: 2rem;
-    border-radius: 5px;
+    border-radius: 1rem;
     font-family:'Courier New', Courier, monospace;
     text-decoration-line: underline;
     color: #131B2B;
@@ -47,47 +64,65 @@ a:hover {
   font-style: italic;
 }
 
-/*Box One Content*/
+/*---Box One Content---*/
 .Box_1 {
   background-color: #a55061a2;
-  border: 4px solid #fcf2f2;
-  border-radius: 4px;
-  padding: 10px;
-  font-size: 37px;
+  border: 0.4rem solid #fcf2f2;
+  border-radius: 2%;
+  padding: 1rem;
+  font-size: 2rem;
   text-align: center;
   display: flex;
-  gap:150px;
+  gap:9rem;
 }
 
 .CarImage1{
-  margin-left: 100px;
+  margin-left: 7rem;
 }
 
 .Textbox1{
   background-color: #CFEAE0;
-  border: 2px solid #131B2B;
+  border: 0.2rem solid #5f2225;
   border-radius: 2%;
-  width: 45%;
-  height: 250px;
+  width: 20rem;
+  height: 14rem;
 }
 
-/*Box two Content*/
+/*---Box two Content---*/
 .Box_2{
   background-color: #a55061a2;
-  border: 4px solid #fcf2f2;
-  border-radius: 4px;
-  padding: 10px;
-  font-size: 37px;
+  border: 0.4rem solid #fcf2f2;
+  border-radius: 2%;
+  padding: 1rem;
+  font-size: 2rem;
   text-align: center;
   display: flex;
-  gap:60px;
+  gap:9rem;
 }
 
 .Textbox2{
   background-color: #CFEAE0;
-  border: 2px solid #131B2B;
+  border: 0.2rem solid #131B2B;
   border-radius: 2%;
-  width: 45%;
-  height: 250px;
-  margin-left: 100px;
+  width: 20rem;
+  height: 14rem;
+  margin-left: 9rem;
+}
+
+/*---RESPONSIVE CSS---*/
+
+@media (min-width: 600px) {
+  .header {grid-area: 1 / span 6;}
+  .menu {grid-area: 2 / span 1;}
+  .content {grid-area: 2 / span 4;}
+  .facts {grid-area: 3 / span 6;}
+  .footer {grid-area: 4 / span 6;}
+}
+
+@media (min-width: 768px) {
+  .header {grid-area: 1 / span 6;}
+  .menu {grid-area: 2 / span 1;}
+  .content {grid-area: 2 / span 4;}
+  .facts {grid-area: 2 / span 1;}
+  .footer {grid-area: 3 / span 6;}
 }
