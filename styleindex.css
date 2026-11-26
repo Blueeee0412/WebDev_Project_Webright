@@ -2,8 +2,12 @@ body{
   background-color: #7a3a47;
 }
 
-/*Navigation Bar*/
+header{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:300%;
+}
 
+/*Navigation Bar*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -39,6 +43,8 @@ a:hover {
   font-size: 37px;
   text-align: center;
   display: flex;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
 }
 
 /*Box One Content*/
@@ -50,7 +56,11 @@ a:hover {
   font-size: 37px;
   text-align: center;
   display: flex;
-  gap:100px;
+  gap:150px;
+}
+
+.CarImage1{
+  margin-left: 100px;
 }
 
 .Textbox1{
@@ -70,7 +80,7 @@ a:hover {
   font-size: 37px;
   text-align: center;
   display: flex;
-  gap:100px;
+  gap:60px;
 }
 
 .Textbox2{
@@ -79,4 +89,5 @@ a:hover {
   border-radius: 2%;
   width: 45%;
   height: 250px;
+  margin-left: 100px;
 }
