@@ -73,6 +73,7 @@ a:hover {
   font-size: 2rem;
   text-align: center;
   display: flex;
+  flex-direction: row;
   gap:9rem;
 }
 
@@ -96,8 +97,10 @@ a:hover {
   padding: 1rem;
   font-size: 2rem;
   text-align: center;
-  display: flex;
-  gap:7rem;
+  display: inline-flex;
+  flex-direction: row;
+  gap: 6rem;
+  padding-right: 20rem;
 }
 
 .Textbox2{
